@@ -4,5 +4,5 @@ var uglify = require('gulp-uglify');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 
-gulp.task('compile:css', function(){
+gulp.task('compile:css','compiles scss files to css', function(){
 });
